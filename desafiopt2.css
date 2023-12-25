@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para a imagem */
+img {
+    width: 568px;
+    height: 500px;
+    position:absolute;
+    /* Estilos adicionais para a imagem */
+    size: 30px;
+    top: 20%;
+    right: 57%;
+}
+
+/* Estilos para o título h1 */
+h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 121.9px;
+    position: absolute;
+    /* Estilos adicionais para o título */
+    left: 53%;
+    bottom: 45%;
+    color: #515151
+}
+
+/* Estilos para o parágrafo */
+p {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: fixed;
+    /* Estilos adicionais para o parágrafo */
+    bottom: 40%;
+    left: 54%;
+    color: #848484;
+}
+
+/* Estilos para o botão principal */
+.mainbutton {
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 174px;
+    height: 41px;
+    position: fixed;
+    /* Estilos adicionais para o botão principal */
+    bottom: 30%;
+    left: 54%;
+    font-weight: 400;
+    background-color: #ADFF00;
+    border-color: transparent;
+}
+
+/* Estilos para a barra de navegação */
+.navbar, .navbutton {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 24px;
+    padding-right: 29px;
+    padding-top: 7px;
+}
+
+/* Estilos específicos para a barra de navegação */
+.navbar {
+    color: #989D9C;
+    font-weight: 600;
+    position: absolute;
+}
+
+/* Estilos específicos para o botão de navegação */
+.navbutton {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #665AE1;
+    border-color: transparent;
+    color: white;
+    border-radius: 50px;
+    width: 130px;
+    height: 41px;
+    position: relative;
+}
+
+a {
+    margin-right: 24px;
+
+}
