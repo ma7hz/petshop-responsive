@@ -53,6 +53,7 @@ p {
     font-weight: 400;
     background-color: #ADFF00;
     border-color: transparent;
+    cursor: pointer;
 }
 
 /* Estilos para a barra de navegação */
@@ -85,6 +86,7 @@ p {
     width: 130px;
     height: 41px;
     position: relative;
+    cursor: pointer;
 }
 
 a {
