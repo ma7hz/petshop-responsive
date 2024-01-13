@@ -9,7 +9,7 @@
 img {
     width: 568px;
     height: 500px;
-    position:absolute;
+    position: absolute;
     /* Estilos adicionais para a imagem */
     size: 30px;
     top: 20%;
@@ -57,7 +57,8 @@ p {
 }
 
 /* Estilos para a barra de navegação */
-.navbar, .navbutton {
+.navbar,
+.navbutton {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -91,5 +92,49 @@ p {
 
 a {
     margin-right: 24px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        display: inline-block;
+        position: static;
+        text-align: center;
+
+    }
+
+    p {
+        display: none;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    img {
+        width: 354px;
+        height: 250px;
+        position: static;
+        padding: 66, 7px 0 0, 05 0;
+    }
+
+    .maincontent {
+        flex-direction: column;
+    }
+
+    .mainbutton {
+margin: auto;
+display: block;
+width: 174px;
+height: 41px;
+position: fixed;
+bottom: 21%;
+left: 26%;
+    }
 
 }
