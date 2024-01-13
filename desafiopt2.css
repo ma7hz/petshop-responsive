@@ -119,8 +119,9 @@ a {
     img {
         width: 354px;
         height: 250px;
-        position: static;
+        position: relative;
         padding: 66, 7px 0 0, 05 0;
+        left: 10%;
     }
 
     .maincontent {
