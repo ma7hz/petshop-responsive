@@ -95,17 +95,16 @@ a {
 
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 800px) {
     h1 {
-        font-size: 50px;
+        font-size: 45px;
         font-style: normal;
         font-weight: 900;
         line-height: normal;
-        display: inline-block;
-        position: static;
         text-align: center;
-
+        margin-top: 20px;
+        left: 0%;
+        bottom: 24%;
     }
 
     p {
@@ -119,9 +118,10 @@ a {
     img {
         width: 354px;
         height: 250px;
-        position: relative;
-        padding: 66, 7px 0 0, 05 0;
-        left: 10%;
+        margin-top: 0px;
+        left: 9%;
+        object-fit: contain;
+        display: inline-block;
     }
 
     .maincontent {
@@ -129,13 +129,12 @@ a {
     }
 
     .mainbutton {
-margin: auto;
-display: block;
-width: 174px;
-height: 41px;
-position: fixed;
-bottom: 21%;
-left: 26%;
+        margin: auto;
+        display: block;
+        width: 174px;
+        height: 41px;
+        position: fixed;
+        bottom: 15%;
+        left: 30%;
     }
-
 }
