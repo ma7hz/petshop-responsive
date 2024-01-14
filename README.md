@@ -9,7 +9,7 @@ Responsive CSS project, in which a PetShop Landing Page is simulated. Project ma
 <br>
 <br>
 <h3>Languages used:
-<BR>
+<br>
 - HTML
 - CSS
 </h3>
